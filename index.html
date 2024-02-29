@@ -182,7 +182,7 @@
 
     @keyframes pisca-reverse {
       0% {
-        background-color: black;
+        background-color: white;
       }
       10% {
         background: linear-gradient(
@@ -425,11 +425,12 @@
         sun.style = "display: none;";
         span.style = "fill: black;";
       } else {
+        document.body.classList.remove("light")
         document.body.classList.add("dark")
         sun.style = "display: flex;";
         moon.style = "display: none;";
         span.style = "fill: white;";
-      }return
+      }
     };
   </script>
 </html>
