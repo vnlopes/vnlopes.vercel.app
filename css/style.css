@@ -31,7 +31,7 @@ body {
   background-color: black;
   justify-content: center;
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 @keyframes pisca {
@@ -448,12 +448,17 @@ a:hover{
 }
 
 @media (max-width: 600px) {
+   body{
+    height: 90vh;
+    overflow-x: hidden;
+   }
+
   .life {
     font-size: 1.5rem;
   }
 
   .main{
-    height: 90vh;
+    height: 80vh;
   }
 
 
