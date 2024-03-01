@@ -441,14 +441,25 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.178);
 }
 
-/* .tt:hover,
+.tt:hover,
 .github:hover,
 .lin:hover {
   transform: scale(0.9);
-} */
+}
 
 @media (max-width: 600px) {
   .life {
     font-size: 1.5rem;
   }
+
+  body{
+    overflow: hidden;
+    height: 90vh;
+  }
+
+
+  .social{
+    gap: 15px;
+  }
+
 }
