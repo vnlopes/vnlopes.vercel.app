@@ -450,7 +450,7 @@ a:hover{
 @media (max-width: 600px) {
    body{
     justify-content: flex-start;
-    overflow-x: hidden;
+    overflow: hidden;
    }
 
   .life {
