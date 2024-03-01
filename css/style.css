@@ -452,8 +452,7 @@ a:hover{
     font-size: 1.5rem;
   }
 
-  body{
-    overflow: hidden;
+  .main{
     height: 90vh;
   }
 
