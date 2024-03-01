@@ -437,15 +437,31 @@ a:hover{
     background-color: rgba(255, 255, 255, 0.178);
 }
 
+
+.h-g{
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 60px;
+  width: 60px;
+}
+
+.h-g:hover{
+  background-color: rgba(0, 0, 0, 0.178);
+}
+
 .h-tt:hover{
     background-color: rgba(0, 0, 0, 0.178);
 }
 
-.tt:hover,
+/* .tt:hover,
 .github:hover,
 .lin:hover {
   transform: scale(0.9);
-}
+} */
 
 @media (max-width: 600px) {
    body{
