@@ -364,7 +364,7 @@ body {
 }
 
 .life {
-    transition: 0.3s;
+  transition: 0.3s;
   user-select: none;
   font-size: 3rem;
   font-weight: 200;
@@ -372,4 +372,83 @@ body {
   display: flex;
   color: white;
   font-family: "Inter", sans-serif;
+}
+
+.top {
+  gap: 30px;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  height: 80vh;
+  width: 80vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.black {
+  fill: black;
+}
+
+.tt,
+.github,
+.lin {
+  cursor: pointer;
+  transition: 0.3s;
+  fill: white;
+  width: 40px;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 60px;
+  width: 60px;
+}
+
+a:hover{
+    background-color: rgba(255, 255, 255, 0.178);
+}
+
+.h-tt:hover{
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
+/* .tt:hover,
+.github:hover,
+.lin:hover {
+  transform: scale(0.9);
+} */
+
+@media (max-width: 600px) {
+  .life {
+    font-size: 1.5rem;
+  }
 }
