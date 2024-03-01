@@ -449,7 +449,7 @@ a:hover{
 
 @media (max-width: 600px) {
    body{
-    height: 80vh;
+    justify-content: flex-start;
     overflow-x: hidden;
    }
 
