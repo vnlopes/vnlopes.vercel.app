@@ -353,10 +353,29 @@ body {
 .span {
   transition: 0.3s;
   height: 200px;
-  width: 200px;
+  width: 300px;
   font-size: 300px;
   fill: white;
   font-weight: 900;
+  position: absolute;
+}
+
+.paths{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.vndark{
+  opacity: 0;
+  transition: 0.3s;
+  height: 200px;
+  width: 300px;
+  font-size: 300px;
+  fill: white;
+  font-weight: 900;
+  position: absolute;
 }
 
 .bold {
@@ -466,11 +485,15 @@ a:hover{
 @media (max-width: 600px) {
    body{
     justify-content: flex-start;
-    overflow: hidden;
+    overflow-x: hidden;
    }
 
   .life {
     font-size: 1.5rem;
+  }
+
+  .span, .vndark{
+    width: 100px;
   }
 
   .main{
